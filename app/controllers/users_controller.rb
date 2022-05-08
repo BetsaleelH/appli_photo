@@ -48,3 +48,4 @@ class UsersController < ApplicationController
     params.require(:user).permit(:name, :username, :email,:photo, :photo_cache)
   end
 end
+
